@@ -88,3 +88,4 @@ pnpm-debug.log*
 reports/
 yarn-debug.log*
 yarn-error.log*
+*.yaml
