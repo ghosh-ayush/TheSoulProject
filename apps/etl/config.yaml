@@ -1,9 +1,9 @@
 github_models:
   endpoint: "https://models.github.ai/inference/chat/completions"
-  token: "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"
+  token: ""
   default_model: "openai/gpt-4o"
 gemini:
   endpoint: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
-  api_key: "AIzaSyAS0UZfyNfuNnJ8S2RWYCAB5HWBWD5kwmo"
+  api_key: "
   default_model: "gemini-2.0-flash"
 use_model: "gemini"  # Change to "gemini" to use Gemini API
