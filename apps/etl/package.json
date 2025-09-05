@@ -1,0 +1,13 @@
+{
+  "name": "etl",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node-fetch": "^2.6.13",
+    "csv-parse": "^6.1.0",
+    "csv-stringify": "^6.6.0",
+    "node-fetch": "^3.3.2"
+  }
+}

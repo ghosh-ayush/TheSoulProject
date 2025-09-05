@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.6.0",
+    "neo4j-driver": "^5.13.0",
+    "meilisearch": "^0.32.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.30"
+  }
+}

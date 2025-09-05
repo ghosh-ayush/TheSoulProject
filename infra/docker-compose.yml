@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  neo4j:
+    image: neo4j:5.23
+    environment:
+      - NEO4J_AUTH=neo4j/testpass
+      - NEO4J_dbms_memory_heap_max__size=1g
+      - NEO4J_PLUGINS=["apoc"]
+    ports: ["7474:7474", "7687:7687"]
+    volumes: [neo4j-data:/data]
+  meilisearch:
+    image: getmeili/meilisearch:v1.7
+    environment: [MEILI_MASTER_KEY=master_key]
+    ports: ["7700:7700"]
+    volumes: [meili-data:/meili_data]
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+volumes:
+  neo4j-data: {}
+  meili-data: {}
